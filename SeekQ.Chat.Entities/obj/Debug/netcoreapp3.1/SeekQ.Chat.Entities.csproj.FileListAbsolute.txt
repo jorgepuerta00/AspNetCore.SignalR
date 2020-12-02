@@ -1,0 +1,9 @@
+/Users/jorgepuerta/Projects/SeekQ.Chat/SeekQ.Chat.Entities/obj/Debug/netcoreapp3.1/SeekQ.Chat.Entities.csprojAssemblyReference.cache
+/Users/jorgepuerta/Projects/SeekQ.Chat/SeekQ.Chat.Entities/obj/Debug/netcoreapp3.1/SeekQ.Chat.Entities.AssemblyInfoInputs.cache
+/Users/jorgepuerta/Projects/SeekQ.Chat/SeekQ.Chat.Entities/obj/Debug/netcoreapp3.1/SeekQ.Chat.Entities.AssemblyInfo.cs
+/Users/jorgepuerta/Projects/SeekQ.Chat/SeekQ.Chat.Entities/obj/Debug/netcoreapp3.1/SeekQ.Chat.Entities.csproj.CoreCompileInputs.cache
+/Users/jorgepuerta/Projects/SeekQ.Chat/SeekQ.Chat.Entities/bin/Debug/netcoreapp3.1/SeekQ.Chat.Entities.deps.json
+/Users/jorgepuerta/Projects/SeekQ.Chat/SeekQ.Chat.Entities/bin/Debug/netcoreapp3.1/SeekQ.Chat.Entities.dll
+/Users/jorgepuerta/Projects/SeekQ.Chat/SeekQ.Chat.Entities/bin/Debug/netcoreapp3.1/SeekQ.Chat.Entities.pdb
+/Users/jorgepuerta/Projects/SeekQ.Chat/SeekQ.Chat.Entities/obj/Debug/netcoreapp3.1/SeekQ.Chat.Entities.dll
+/Users/jorgepuerta/Projects/SeekQ.Chat/SeekQ.Chat.Entities/obj/Debug/netcoreapp3.1/SeekQ.Chat.Entities.pdb

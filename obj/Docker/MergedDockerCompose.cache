@@ -1,0 +1,16 @@
+services:
+  seekq.chat.api:
+    build:
+      context: /Users/jorgepuerta/Projects/SeekQ.Chat
+      dockerfile: SeekQ.Chat.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: seekqchat
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/jorgepuerta/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/jorgepuerta/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

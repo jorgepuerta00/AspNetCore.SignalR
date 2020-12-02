@@ -1,0 +1,29 @@
+services:
+  mongodb:
+    container_name: chatdb
+    environment:
+      MONGO_INITDB_ROOT_PASSWORD: mongouser
+      MONGO_INITDB_ROOT_USERNAME: dbUser
+    image: mongo:latest
+    ports:
+    - published: 27017
+      target: 27017
+  seekq.chat.api:
+    build:
+      context: /Users/jorgepuerta/Projects/SeekQ.Chat
+      dockerfile: SeekQ.Chat.Api/Dockerfile
+    depends_on:
+      mongodb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ConnectionStrings__MONGODB: mongodb+srv://dbUser:mongouser@cluster0.gbaf1.mongodb.net/test
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: seekqchat
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/jorgepuerta/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/jorgepuerta/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

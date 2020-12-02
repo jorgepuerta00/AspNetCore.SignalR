@@ -1,0 +1,8 @@
+/Users/jorgepuerta/Projects/SeekQ.Chat/bin/Debug/appsettings.Development.json
+/Users/jorgepuerta/Projects/SeekQ.Chat/bin/Debug/appsettings.json
+/Users/jorgepuerta/Projects/SeekQ.Chat/bin/Debug/Properties/launchSettings.json
+/Users/jorgepuerta/Projects/SeekQ.Chat/bin/Debug/SeekQ.Chat.Api.dll
+/Users/jorgepuerta/Projects/SeekQ.Chat/bin/Debug/SeekQ.Chat.Api.pdb
+/Users/jorgepuerta/Projects/SeekQ.Chat/obj/Debug/docker-compose.dcprojAssemblyReference.cache
+/Users/jorgepuerta/Projects/SeekQ.Chat/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
+/Users/jorgepuerta/Projects/SeekQ.Chat/obj/Debug/docker-compose.dcproj.CopyComplete

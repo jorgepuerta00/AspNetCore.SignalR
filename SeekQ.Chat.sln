@@ -1,0 +1,41 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeekQ.Chat.Test", "SeekQ.Chat.Test\SeekQ.Chat.Test.csproj", "{32C931DD-1A58-4759-A508-60A14FAF06D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeekQ.Chat.Core", "SeekQ.Chat.Core\SeekQ.Chat.Core.csproj", "{829B2B77-7CE2-4A05-B04C-7A0759B049D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeekQ.Chat.Entities", "SeekQ.Chat.Entities\SeekQ.Chat.Entities.csproj", "{5DF662AF-8AD7-457B-8D0B-2AA3BA31F0CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeekQ.Chat.Api", "SeekQ.Chat.Api\SeekQ.Chat.Api.csproj", "{1FA6A908-0876-495A-B3CF-1FEA4062DD48}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0E5D790E-5A06-40F8-828B-487E20DD2DF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32C931DD-1A58-4759-A508-60A14FAF06D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C931DD-1A58-4759-A508-60A14FAF06D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C931DD-1A58-4759-A508-60A14FAF06D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C931DD-1A58-4759-A508-60A14FAF06D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829B2B77-7CE2-4A05-B04C-7A0759B049D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829B2B77-7CE2-4A05-B04C-7A0759B049D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829B2B77-7CE2-4A05-B04C-7A0759B049D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829B2B77-7CE2-4A05-B04C-7A0759B049D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF662AF-8AD7-457B-8D0B-2AA3BA31F0CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF662AF-8AD7-457B-8D0B-2AA3BA31F0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF662AF-8AD7-457B-8D0B-2AA3BA31F0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF662AF-8AD7-457B-8D0B-2AA3BA31F0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA6A908-0876-495A-B3CF-1FEA4062DD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA6A908-0876-495A-B3CF-1FEA4062DD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA6A908-0876-495A-B3CF-1FEA4062DD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA6A908-0876-495A-B3CF-1FEA4062DD48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E5D790E-5A06-40F8-828B-487E20DD2DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5D790E-5A06-40F8-828B-487E20DD2DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5D790E-5A06-40F8-828B-487E20DD2DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5D790E-5A06-40F8-828B-487E20DD2DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
